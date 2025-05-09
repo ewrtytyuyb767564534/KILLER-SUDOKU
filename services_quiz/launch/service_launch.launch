@@ -1,0 +1,4 @@
+<launch>
+<node pkg="KILLER_SUDOKU" type="service_server.py" name="service" output="screen">
+</node>
+</launch>
