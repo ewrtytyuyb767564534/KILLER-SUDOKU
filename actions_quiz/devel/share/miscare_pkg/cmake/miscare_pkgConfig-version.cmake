@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/miscare_pkg/share/miscare_pkg/cmake/miscare_pkgConfig-version.cmake

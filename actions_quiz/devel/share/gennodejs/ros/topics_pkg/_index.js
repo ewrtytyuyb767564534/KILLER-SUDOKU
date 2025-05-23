@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/topics_pkg/share/gennodejs/ros/topics_pkg/_index.js

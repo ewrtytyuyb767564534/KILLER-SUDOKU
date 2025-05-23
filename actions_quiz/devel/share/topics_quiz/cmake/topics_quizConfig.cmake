@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/topics_quiz/share/topics_quiz/cmake/topics_quizConfig.cmake

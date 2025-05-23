@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/service_pkg/share/common-lisp/ros/service_pkg/srv/service_pkg-srv.asd

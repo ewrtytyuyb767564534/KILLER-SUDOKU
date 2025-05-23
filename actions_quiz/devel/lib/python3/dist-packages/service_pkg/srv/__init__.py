@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/service_pkg/lib/python3/dist-packages/service_pkg/srv/__init__.py

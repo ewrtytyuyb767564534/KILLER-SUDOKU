@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/miscare_pkg/lib/pkgconfig/miscare_pkg.pc

@@ -1,0 +1,8 @@
+prefix=/home/radu/catkin_ws/devel/.private/topics_pkg
+
+Name: topics_pkg
+Description: Description of topics_pkg
+Version: 0.0.0
+Cflags: -I/home/radu/catkin_ws/devel/.private/topics_pkg/include
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs message_runtime

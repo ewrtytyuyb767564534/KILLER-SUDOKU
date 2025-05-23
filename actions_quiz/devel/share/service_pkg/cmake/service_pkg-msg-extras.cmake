@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/service_pkg/share/service_pkg/cmake/service_pkg-msg-extras.cmake

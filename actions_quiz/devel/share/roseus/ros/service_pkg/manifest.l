@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/service_pkg/share/roseus/ros/service_pkg/manifest.l

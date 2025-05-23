@@ -1,0 +1,10 @@
+(cl:defpackage service_pkg-srv
+  (:use )
+  (:export
+   "CUSTOMSERVMESS"
+   "<CUSTOMSERVMESS-REQUEST>"
+   "CUSTOMSERVMESS-REQUEST"
+   "<CUSTOMSERVMESS-RESPONSE>"
+   "CUSTOMSERVMESS-RESPONSE"
+  ))
+

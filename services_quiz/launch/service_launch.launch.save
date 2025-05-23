@@ -1,0 +1,47 @@
+#!/usr/bin/env python
+
+import rospy
+from geometry_msgs.msg import Twist
+
+def move_square():
+    rospy.init_node('move_square', anonymous=True)
+    pub = rospy.Publisher('/cmd_vel', Twist, queue_size=1)
+    rate = rospy.Rate(1)  # 1 Hz
+
+    move = Twist()
+    forward_time = 2     # secunde de mers înainte
+    turn_time = 1.7      # secunde de rotit ~90 grade dreapta
+
+    for i in range(4):
+        # Mergi drept
+        move.linear.x = 0.2
+        move.angular.z = 0.0
+        pub.publish(move)
+        rospy.sleep(forward_time)
+
+        # Stai puțin
+        move.linear.x = 0.0
+        pub.publish(move)
+        rospy.sleep(0.5)
+
+        # Rotire la dreapta
+        move.linear.x = 0.0
+        move.angular.z = -1.0
+        pub.publish(move)
+        rospy.sleep(turn_time)
+
+        # Oprire
+        move.angular.z = 0.0
+        pub.publish(move)
+        rospy.sleep(0.5)
+
+    # Oprire totală
+    move.linear.x = 0.0
+    move.angular.z = 0.0
+    pub.publish(move)
+
+if _name_ == '_main_':
+    try:
+        move_square()
+    except rospy.ROSInterruptException:
+        pass

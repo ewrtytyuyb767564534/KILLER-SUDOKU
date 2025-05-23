@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/service_pkg/lib/pkgconfig/service_pkg.pc

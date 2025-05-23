@@ -1,0 +1,1 @@
+/home/radu/catkin_ws/devel/.private/service_pkg/share/gennodejs/ros/service_pkg/srv/CustomServMess.js
